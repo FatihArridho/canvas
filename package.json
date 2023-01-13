@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "canvas": "^2.8.0",
+    "canvas": "^2.10.1",
     "fortnite": "^4.3.2",
     "fortnite-9812": "^1.0.4",
     "knights-canvas": "^1.2.7",
