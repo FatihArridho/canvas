@@ -27,6 +27,7 @@ module.exports.Hacker2 = require('./src/linz/Hacker2');
 module.exports.Hacker3 = require('./src/linz/Hacker3');
 module.exports.Patrick = require('./src/linz/Patrick');
 module.exports.Goodbye = require('./src/greetings/Goodbye');
+module.exports.Signup = require('./src/update/Signup');
 module.exports.Up = require('./src/premium/Up');
 module.exports.Ig = require('./src/update/Ig');
 module.exports.Inv = require('./src/update/Inv');
