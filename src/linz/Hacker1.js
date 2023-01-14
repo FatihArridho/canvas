@@ -4,7 +4,7 @@ const { formatletiable, applyText } = require("../../utils/functions");
 module.exports = class Hacker1 {
 
     constructor() {
-        this.bg = "https://pandal.page/imgs/imgs/60b5a6aa512c1.jpg";
+        this.bg = "https://e1.pxfuel.com/desktop-wallpaper/392/755/desktop-wallpaper-anonymous-stone-cool-iphone-backgrounds-mobile-phone.jpg";
         this.heker = "https://i.ibb.co/yhny1hk/1622517139282.png";
         this.text = "KNIGHTS TEAM";    
         }
