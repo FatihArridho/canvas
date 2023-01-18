@@ -90,3 +90,21 @@ const image = await new cf.Welcome2()
 ```
 ## Result Welcome V2
 <img src="https://api.fatiharridho.my.id/api/canvas/welcome/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404" height="145"></img>
+
+## Example Welcome V3
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Welcome3()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/welcome-v3.png', data)
+ 
+```
+## Result Welcome V3
+<img src="https://api.fatiharridho.my.id/api/canvas/welcome/v3?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho" height="145"></img>
