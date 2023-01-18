@@ -1,3 +1,3 @@
-# canvas-hikki
+# canvas-fatih
  ```go
-make doang ga star+follow
+tutornya nanti
