@@ -89,4 +89,4 @@ const image = await new cf.Welcome2()
  
 ```
 ## Result Welcome V2
-<img src="https://api.fatiharridho.my.id/api/canvas/welcome/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404c=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea2&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+<img src="https://api.fatiharridho.my.id/api/canvas/welcome/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404" height="145"></img>
