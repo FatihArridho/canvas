@@ -191,3 +191,23 @@ const image = await new cf.Verification()
 ```
 ## Result Verification
 <img src="https://api.fatiharridho.my.id/api/canvas/verification?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+
+## Example Signup
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Signup()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setName("Fatih Arridho")
+    .setBackground("https://telegra.ph/file/3f4993d39b9994c54da94.jpg")
+    .setEmail("admin@fth.my.id")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/signup.png', data)
+ 
+```
+## Result Signup
+<img src="https://api.fatiharridho.my.id/api/canvas/signup?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&email=admin@fth.my.id" height="145"></img>
