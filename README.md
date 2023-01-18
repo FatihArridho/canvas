@@ -128,10 +128,10 @@ const image = await new cf.Goodbye()
   await fs.writeFileSync(__path +'/tmp/goodbye-v1.png', data)
  
 ```
-## Result Welcome V1
+## Result Goodbye V1
 <img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v1?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
 
-## Example GoodbyeV2
+## Example Goodbye V2
 
 ```js
 const cf = require("canvas-fatih");
