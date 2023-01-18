@@ -17,23 +17,26 @@ Canvas.registerFont(`${__dirname}/assets/fonts/Bult.ttf`, { family: "Built" });
 Canvas.registerFont(`${__dirname}/assets/fonts/beamweaponital.ttf`, { family: "BeamweaponItal" });
 Canvas.registerFont(`${__dirname}/assets/fonts/BrushKing.otf`, { family: "brush" });
 
-module.exports.Base = require('./src/greetings/Base');
 module.exports.Lickanime = require('./src/linz/Lick');
 module.exports.Burn = require('./src/linz/Burn');
-module.exports.Welcome = require('./src/greetings/Welcome');
 module.exports.Rank = require('./src/rank/Rank');
 module.exports.Hacker1 = require('./src/linz/Hacker1');
 module.exports.Hacker2 = require('./src/linz/Hacker2');
 module.exports.Hacker3 = require('./src/linz/Hacker3');
 module.exports.Patrick = require('./src/linz/Patrick');
-module.exports.Goodbye = require('./src/greetings/Goodbye');
 module.exports.Signup = require('./src/update/Signup');
 module.exports.Up = require('./src/premium/Up');
 module.exports.Ig = require('./src/update/Ig');
 module.exports.Inv = require('./src/update/Inv');
-//welcome
+//greetings
+module.exports.Base = require('./src/greetings/Base');
+module.exports.Promote = require('./src/greetings/Promote');
+module.exports.Demote = require('./src/greetings/Demote');
+module.exports.Verification = require('./src/greetings/Verification');
+module.exports.Goodbye = require('./src/greetings/Goodbye');
 module.exports.Goodbye2 = require('./src/greetings2/Goodbye2');
 module.exports.Goodbye3 = require('./src/greetings3/Goodbye3');
+module.exports.Welcome = require('./src/greetings/Welcome');
 module.exports.Welcome2 = require('./src/greetings2/Welcome2');
 module.exports.Welcome3 = require('./src/greetings3/Welcome3');
 //gfx
