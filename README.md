@@ -108,3 +108,64 @@ const image = await new cf.Welcome3()
 ```
 ## Result Welcome V3
 <img src="https://api.fatiharridho.my.id/api/canvas/welcome/v3?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho" height="145"></img>
+
+## Example Goodbye V1
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Goodbye()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .setGuildName("CpdXSeven")
+    .setGuildIcon("https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png")
+    .setBackground("https://telegra.ph/file/3f4993d39b9994c54da94.jpg")
+    .setMemberCount("404")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/goodbye-v1.png', data)
+ 
+```
+## Result Welcome V1
+<img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v1?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+
+## Example GoodbyeV2
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Goodbye2()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .setBg("https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg")
+    .setGroupname("CpdXSeven")
+    .setMember("404")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/goodbye-v2.png', data)
+ 
+```
+## Result Goodbye V2
+<img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404" height="145"></img>
+
+## Example Goodbye V3
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Goodbye3()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/goodbye-v3.png', data)
+ 
+```
+## Result Goodbye V3
+<img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v3?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho" height="145"></img>
