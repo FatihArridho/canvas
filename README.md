@@ -444,7 +444,7 @@ const image = await new cf.customGfx()
 <img src="https://api.fatiharridho.my.id/api/canvas/customgfx1?text=Fatih&bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
 </details>
 
-<details><summary><b>Example Custom Gfx V1</b></summary><br>
+<details><summary><b>Example Custom Gfx V2</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -462,5 +462,41 @@ const image = await new cf.customGfx2()
 ```
 ### Result Custom Gfx V2
 <img src="https://api.fatiharridho.my.id/api/canvas/customgfx2?text1=Fatih&text2=Idhoo&bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
+
+<details><summary><b>Example Gura/b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.customGfx2()
+    .setName("Fatih")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/customGfx-v2.png', data)
+ 
+```
+### Result Gura
+<img src="https://api.fatiharridho.my.id/api/canvas/gura?text=Fatih" height="145"></img>
+</details>
+
+<details><summary><b>Example Spongebob Burn/b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Burn()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/burn.png', data)
+ 
+```
+### Result Spongebob Burn
+<img src="https://api.fatiharridho.my.id/api/canvas/spongebob?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
 </details>
 
