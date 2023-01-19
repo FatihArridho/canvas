@@ -262,3 +262,27 @@ const image = await new cf.Hacker3()
 ```
 ## Result Hacker V3
 <img src="https://api.fatiharridho.my.id/api/canvas/hacker/v3?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+
+## Example Rank
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Rank()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .setBg("https://telegra.ph/file/3f4993d39b9994c54da94.jpg")
+    .setNeedexp("5000")
+    .setCurrxp("6000")
+    .setLevel("9")
+    .setRank("https://i.pinimg.com/originals/b2/fc/1d/b2fc1da4a7c50bcc2f48fc75b54c1fee.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/rank.png', data)
+ 
+```
+## Result Rank
+<img src="https://api.fatiharridho.my.id/api/canvas/rank?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&needxp=5000&currxp=6000&level=9&logorank=https://i.pinimg.com/originals/b2/fc/1d/b2fc1da4a7c50bcc2f48fc75b54c1fee.png" height="145"></img>
+
