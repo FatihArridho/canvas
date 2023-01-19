@@ -424,3 +424,43 @@ const image = await new cf.Gfx5()
 ### Result Gfx V5
 <img src="https://api.fatiharridho.my.id/api/canvas/gfx5?text=Fatih" height="145"></img>
 </details>
+
+<details><summary><b>Example Custom Gfx V1</b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.customGfx()
+    .setText("Fatih")
+    .setBg("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/customGfx-v1.png', data)
+ 
+```
+### Result Custom Gfx V1
+<img src="https://api.fatiharridho.my.id/api/canvas/customgfx1?text=Fatih&bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
+
+<details><summary><b>Example Custom Gfx V1</b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.customGfx2()
+    .setText1("Fatih")
+    .setText2("Idhoo")
+    .setBg("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/customGfx-v2.png', data)
+ 
+```
+### Result Custom Gfx V2
+<img src="https://api.fatiharridho.my.id/api/canvas/customgfx2?text1=Fatih&text2=Idhoo&bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
+
