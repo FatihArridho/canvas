@@ -464,7 +464,7 @@ const image = await new cf.customGfx2()
 <img src="https://api.fatiharridho.my.id/api/canvas/customgfx2?text1=Fatih&text2=Idhoo&bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
 </details>
 
-<details><summary><b>Example Gura/b></summary><br>
+<details><summary><b>Example Gura</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -482,7 +482,7 @@ const image = await new cf.customGfx2()
 <img src="https://api.fatiharridho.my.id/api/canvas/gura?text=Fatih" height="145"></img>
 </details>
 
-<details><summary><b>Example Spongebob Burn/b></summary><br>
+<details><summary><b>Example Spongebob Burn</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
