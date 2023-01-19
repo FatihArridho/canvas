@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="200" src="https://telegra.ph/file/89233f4b2909585775972.jpg">
+  <img width="200" height="200" src="https://telegra.ph/file/e77b79d6b544603222cfa.jpg">
 </p>
 
 ## Installation
