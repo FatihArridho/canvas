@@ -1,7 +1,7 @@
 const Canvas = require("canvas");
 const { formatVariable, applyText } = require("../../utils/functions");
 
-module.exports = class Lickanime {
+module.exports = class Lick {
 
     constructor() {
         this.username = "Clyde";
