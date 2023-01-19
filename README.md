@@ -1,8 +1,21 @@
+<p align="center">
+  <img width="200" height="200" src="https://telegra.ph/file/89233f4b2909585775972.jpg">
+</p>
+
 ## Installation
 
 ```bash
 $ npm install canvas-fatih
 ```
+
+<p align="center">
+    <a href="https://github.com/FatihArridho">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=thank+you+for+using+this+module"
+            alt="FatihArridho"
+        />
+    </a>
+</p>
 
 ## How To Use?
 <details><summary><b>Example Welcome V1</b></summary><br>
@@ -51,7 +64,7 @@ const image = await new cf.Welcome2()
 <img src="https://api.fatiharridho.my.id/api/canvas/welcome/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404" height="145"></img>
 </details>
 
-## Example Welcome V3
+<details><summary><b>Example Welcome V3</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -66,10 +79,11 @@ const image = await new cf.Welcome3()
   await fs.writeFileSync(__path +'/tmp/welcome-v3.png', data)
  
 ```
-## Result Welcome V3
+### Result Welcome V3
 <img src="https://api.fatiharridho.my.id/api/canvas/welcome/v3?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho" height="145"></img>
+</details>
 
-## Example Goodbye V1
+<details><summary><b>Example Goodbye V1</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -88,10 +102,11 @@ const image = await new cf.Goodbye()
   await fs.writeFileSync(__path +'/tmp/goodbye-v1.png', data)
  
 ```
-## Result Goodbye V1
+### Result Goodbye V1
 <img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v1?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+</details>
 
-## Example Goodbye V2
+<details><summary><b>Example Goodbye V2</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -109,10 +124,11 @@ const image = await new cf.Goodbye2()
   await fs.writeFileSync(__path +'/tmp/goodbye-v2.png', data)
  
 ```
-## Result Goodbye V2
+### Result Goodbye V2
 <img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v2?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg&namagc=CpdXSeven&member=404" height="145"></img>
+</details>
 
-## Example Goodbye V3
+<details><summary><b>Example Goodbye V3</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -127,10 +143,11 @@ const image = await new cf.Goodbye3()
   await fs.writeFileSync(__path +'/tmp/goodbye-v3.png', data)
  
 ```
-## Result Goodbye V3
+### Result Goodbye V3
 <img src="https://api.fatiharridho.my.id/api/canvas/goodbye/v3?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho" height="145"></img>
+</details>
 
-## Example Promote
+<details><summary><b>Example Promote</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -149,10 +166,11 @@ const image = await new cf.Promote()
   await fs.writeFileSync(__path +'/tmp/promote.png', data)
  
 ```
-## Result Promote
+### Result Promote
 <img src="https://api.fatiharridho.my.id/api/canvas/promote?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+</details>
 
-## Example Demote
+<details><summary><b>Example Demote</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -171,10 +189,11 @@ const image = await new cf.Demote()
   await fs.writeFileSync(__path +'/tmp/demote.png', data)
  
 ```
-## Result Demote
+### Result Demote
 <img src="https://api.fatiharridho.my.id/api/canvas/demote?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+</details>
 
-## Example Verification
+<details><summary><b>Example Verification</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -193,10 +212,11 @@ const image = await new cf.Verification()
   await fs.writeFileSync(__path +'/tmp/verification.png', data)
  
 ```
-## Result Verification
+### Result Verification
 <img src="https://api.fatiharridho.my.id/api/canvas/verification?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&namagc=CpdXSeven&ppgc=https://cdn.dribbble.com/users/1051393/screenshots/7011829/media/f19892ea228d4dfafd5a0abf273f6b3c.png&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&member=404" height="145"></img>
+</details>
 
-## Example Signup
+<details><summary><b>Example Signup</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -213,10 +233,11 @@ const image = await new cf.Signup()
   await fs.writeFileSync(__path +'/tmp/signup.png', data)
  
 ```
-## Result Signup
+### Result Signup
 <img src="https://api.fatiharridho.my.id/api/canvas/signup?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&email=admin@fth.my.id" height="145"></img>
+</details>
 
-## Example Hacker V1
+<details><summary><b>Example Hacker V1</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -230,10 +251,11 @@ const image = await new cf.Hacker1()
   await fs.writeFileSync(__path +'/tmp/hacker-v1.png', data)
  
 ```
-## Result Hacker V1
+### Result Hacker V1
 <img src="https://api.fatiharridho.my.id/api/canvas/hacker/v1?nama=Fatih%20Arridho" height="145"></img>
+</details>
 
-## Example Hacker V2
+<details><summary><b>Example Hacker V2</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -247,10 +269,11 @@ const image = await new cf.Hacker2()
   await fs.writeFileSync(__path +'/tmp/hacker-v2.png', data)
  
 ```
-## Result Hacker V2
+### Result Hacker V2
 <img src="https://api.fatiharridho.my.id/api/canvas/hacker/v2?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
 
-## Example Hacker V3
+<details><summary><b>Example Hacker V3</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -264,10 +287,11 @@ const image = await new cf.Hacker3()
   await fs.writeFileSync(__path +'/tmp/hacker-v3.png', data)
  
 ```
-## Result Hacker V3
+### Result Hacker V3
 <img src="https://api.fatiharridho.my.id/api/canvas/hacker/v3?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
 
-## Example Rank
+<details><summary><b>Example Rank</b></summary><br>
 
 ```js
 const cf = require("canvas-fatih");
@@ -287,6 +311,6 @@ const image = await new cf.Rank()
   await fs.writeFileSync(__path +'/tmp/rank.png', data)
  
 ```
-## Result Rank
+### Result Rank
 <img src="https://api.fatiharridho.my.id/api/canvas/rank?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&needxp=5000&currxp=6000&level=9&logorank=https://i.pinimg.com/originals/b2/fc/1d/b2fc1da4a7c50bcc2f48fc75b54c1fee.png" height="145"></img>
-
+</details
