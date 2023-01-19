@@ -1,6 +1,6 @@
 {
   "name": "canvas-fatih",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,31 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+
+    "type": "git",
+    "url": "git+https://github.com/FatihArridho/canvas.git"
+  },
+    "keywords":  [
+    "canvas",
+    "canvas discord",
+    "canvas-discord",
+    "discord-canvas",
+    "discord canvas",
+    "djs",
+    "djs bot",
+    "bot discord",
+    "discord",
+    "html5",
+    "discord js",
+    "herokuapp",
+    "canvas fatih",
+    "fatih canvas"
+   ],
+  "author": "Fatih Arridho",
   "license": "ISC"
+   "bugs": {
+    "url": "https://github.com/FatihArridho/canvas/issues"
+  },
+  "homepage": "https://github.com/FatihArridho/canvas#readme",
 }
