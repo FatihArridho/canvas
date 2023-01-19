@@ -17,7 +17,7 @@ Canvas.registerFont(`${__dirname}/assets/fonts/Bult.ttf`, { family: "Built" });
 Canvas.registerFont(`${__dirname}/assets/fonts/beamweaponital.ttf`, { family: "BeamweaponItal" });
 Canvas.registerFont(`${__dirname}/assets/fonts/BrushKing.otf`, { family: "brush" });
 
-module.exports.Lickanime = require('./src/linz/Lick');
+module.exports.Lick = require('./src/linz/Lick');
 module.exports.Burn = require('./src/linz/Burn');
 module.exports.Rank = require('./src/rank/Rank');
 module.exports.Hacker1 = require('./src/linz/Hacker1');
