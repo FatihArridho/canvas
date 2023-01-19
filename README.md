@@ -559,3 +559,18 @@ const image = await new cf.Xnxx()
 <img src="https://api.fatiharridho.my.id/api/canvas/xnxx?pp=https://api.fatiharridho.my.id/images/logo.png&username=Fatih%20Arridho" height="145"></img>
 </details>
 
+---
+
+<div align="center">
+  <h2>⭐ Thanks To</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/squad-404"><img src="https://github.com/squad-404.png" width="100px;" alt="Squad 404"/><br /><sub><b>Squad 404</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/hardianto-cpu"><img src="https://github.com/hardianto-cpu.png" width="100px;" alt="Hardianto"/><br /><sub><b>Hardianto CPU</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/FatihArridho"><img src="https://github.com/FatihArridho.png" width="100px;" alt="Fatih Arridho"/><br /><sub><b>Fatih Arridho</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+</div>
