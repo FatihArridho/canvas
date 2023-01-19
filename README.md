@@ -228,3 +228,37 @@ const image = await new cf.Hacker1()
 ```
 ## Result Hacker V1
 <img src="https://api.fatiharridho.my.id/api/canvas/hacker/v1?nama=Fatih%20Arridho" height="145"></img>
+
+## Example Hacker V2
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Hacker2()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/hacker-v2.png', data)
+ 
+```
+## Result Hacker V2
+<img src="https://api.fatiharridho.my.id/api/canvas/hacker/v2?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+
+## Example Hacker V3
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Hacker3()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/hacker-v3.png', data)
+ 
+```
+## Result Hacker V3
+<img src="https://api.fatiharridho.my.id/api/canvas/hacker/v3?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
