@@ -500,3 +500,62 @@ const image = await new cf.Burn()
 <img src="https://api.fatiharridho.my.id/api/canvas/spongebob?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
 </details>
 
+<details><summary><b>Example Patrick</b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Patrick()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/patrick.png', data)
+ 
+```
+### Result Patrick
+<img src="https://api.fatiharridho.my.id/api/canvas/patrick?bg=https://api.fatiharridho.my.id/images/logo.png" height="145"></img>
+</details>
+
+<details><summary><b>Example Instagram Profile</b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Ig()
+    .setAvatar("https://api.fatiharridho.my.id/images/logo.png")
+    .setUsername("Fatih Arridho")
+    .setPost("19")
+    .setFollowers("10000")
+    .setFollowing("230")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/instagram-profile.png', data)
+ 
+```
+### Result Instagram Profile
+<img src="https://api.fatiharridho.my.id/api/canvas/instagram?pp=https://api.fatiharridho.my.id/images/logo.png&username=Fatih%20Arridho&post=19&followers=10000&following=230" height="145"></img>
+</details>
+
+<details><summary><b>Example Xnxx</b></summary><br>
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Xnxx()
+    .setImage("https://api.fatiharridho.my.id/images/logo.png")
+    .setTitle("Fatih Arridho")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/xnxx.png', data)
+ 
+```
+### Result Xnxx
+<img src="https://api.fatiharridho.my.id/api/canvas/xnxx?pp=https://api.fatiharridho.my.id/images/logo.png&username=Fatih%20Arridho" height="145"></img>
+</details>
+
