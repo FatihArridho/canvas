@@ -211,3 +211,20 @@ const image = await new cf.Signup()
 ```
 ## Result Signup
 <img src="https://api.fatiharridho.my.id/api/canvas/signup?pp=https://api.fatiharridho.my.id/images/logo.png&nama=Fatih%20Arridho&bg=https://telegra.ph/file/3f4993d39b9994c54da94.jpg&email=admin@fth.my.id" height="145"></img>
+
+## Example Hacker V1
+
+```js
+const cf = require("canvas-fatih");
+const fs = require('fs');
+
+const image = await new cf.Hacker1()
+    .setName("Fatih Arridho")
+    .toAttachment();
+  
+  data = image.toBuffer();
+  await fs.writeFileSync(__path +'/tmp/hacker-v1.png', data)
+ 
+```
+## Result Hacker V1
+<img src="https://api.fatiharridho.my.id/api/canvas/hacker/v1?nama=Fatih%20Arridho" height="145"></img>
